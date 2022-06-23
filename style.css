@@ -1,0 +1,215 @@
+
+/* body section */
+body{
+  width: 100%;
+  background: url(pic/pic.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+/* navbar section */
+.navbar ul{
+  list-style: none;
+  text-align: center;
+  padding: 10px 16px;
+  margin: 0;
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: rgb(195, 169, 169);
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+color: rgb(230,104,59);
+transition: 0.6s;
+}
+
+/* info first page */
+.info{
+  margin: left 7%;
+  margin-top: 6%;
+  text-align: center;
+}
+
+.info h1{
+  font-size: 78px;
+  color: rgb(195, 169, 169);
+}
+
+.info h2{
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: rgb(195, 169, 169);
+
+}
+
+.info span{
+  color: rgb(230,104,59);
+}
+
+/* fist page button */
+.info a{
+  background-color: rgb(195, 169, 169);
+  padding: 8px 30px;
+  border-radius: 30px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+
+}
+
+.info a:hover{
+  background-color: rgb(230,104,59);
+  transform: scale(1.1);
+  
+}
+/* about section */
+
+.about img{
+  height: auto;
+  width: 400px;
+}
+
+.about-text{
+  width: 550px;
+}
+
+.main{
+  width: 1100px;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h4{
+  color: rgb(195, 169, 169);
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 18px;
+}
+
+.about-text h5{
+  color: rgb(195, 169, 169);
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+span{
+  color: rgb(230,104,59);
+}
+.about-text p{
+  color: rgb(195, 169, 169);
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.button{
+  background: rgb(195, 169, 169);
+  padding: 8px 30px;
+  border-radius: 30px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none;
+}
+.button:hover{
+background: transparent;
+background-color: rgb(230,104,59);
+}
+
+/* contact section */
+
+.Contact{
+  position: absolute;
+  width: 500px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  box-shadow: none;
+  border-radius: 8px; 
+}
+
+form{
+  margin: 40px;
+}
+.input-f{
+  height: 40px;
+  width: 400px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 2px solid rgb(195, 169, 169);;
+  outline: none;
+  border-radius: 30px;
+  background: none;
+  color: rgb(195, 169, 169);
+}
+.text-ff{
+  height: 150px;
+  padding-top: 10px;
+  color: rgb(195, 169, 169);
+}
+button{
+  background: rgb(195, 169, 169);
+  padding: 8px 30px;
+  border-radius: 30px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+ button:hover{
+  transform: scale(1.1) ;
+ }
+
+ /* Portfolio Section */
+ .gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+ }
+ .gallery img{
+  width: 330px;
+  height: 210px;
+  margin: 10px;
+ }
+
+ /* thnk you section*/
+
+ .thankyou{
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  color: rgb(195, 169, 169);
+  margin: left 7%;
+  margin-top: 6%;
+  text-align: center;
+ }

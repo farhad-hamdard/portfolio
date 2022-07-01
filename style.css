@@ -61,7 +61,7 @@ transition: 0.6s;
   color: rgb(230,104,59);
 }
 
-/* fist page button */
+/* first page button */
 .info a{
   background-color: rgb(195, 169, 169);
   padding: 8px 30px;
@@ -144,37 +144,43 @@ background-color: rgb(230,104,59);
 
 /* contact section */
 
-.Contact{
-  position: absolute;
-  width: 500px;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: none;
-  box-shadow: none;
-  border-radius: 8px; 
+
+.contact img{
+  height: auto;
+  width: 400px;
+  margin-top: 5%;
 }
 
-form{
-  margin: 40px;
+.contact-text{
+  width: 550px;
 }
-.input-f{
-  height: 40px;
-  width: 400px;
-  margin-top: 20px;
-  padding-left: 10px;
-  border: 2px solid rgb(195, 169, 169);;
-  outline: none;
-  border-radius: 30px;
-  background: none;
+
+.main1{
+  width: 1100px;
+  max-width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-text h6{
   color: rgb(195, 169, 169);
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  margin-top: 10%;
+  
 }
-.text-ff{
-  height: 150px;
-  padding-top: 10px;
+.contact-text p{
   color: rgb(195, 169, 169);
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  
 }
-button{
+.mail{
   background: rgb(195, 169, 169);
   padding: 8px 30px;
   border-radius: 30px;
@@ -184,10 +190,16 @@ button{
   margin-top: 20px;
   cursor: pointer;
   transition: .3s;
+  text-decoration: none;
+  vertical-align: center;
+  justify-content: center;
+  position: relative;
+  left:10% ;
 }
- button:hover{
-  transform: scale(1.1) ;
- }
+.mail:hover{
+background: transparent;
+background-color: rgb(230,104,59);
+}
 
  /* Portfolio Section */
  .gallery{
